@@ -43,3 +43,9 @@ A full-stack EdTech platform built using:
 - GitHub:https://github.com/deepakmehta77722/
 - LinkedIn:https://www.linkedin.com/in/deepakkumar162/
 - Email:deepakmehta7527@gmail.com
+Live Portfolio
+
+## PORTFOLIO_LIVE_URL
+https://deepak-portfolio-bk8nijeeu-lets12.vercel.app/#projects
+
+Thank you for visiting my portfolio!
