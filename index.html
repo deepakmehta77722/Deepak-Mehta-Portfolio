@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deepak Mehta - MERN Stack Developer portfolio showcasing web development skills and the EduNest EdTech project.">
+    <title>Deepak Mehta | MERN Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src="./images/userAsset/monogram.png" class="logo" alt="Deepak Mehta logo">
+                    <div class="logo-text">eepak</div>
+                </div>
+
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+
+            <div class="hero-section">
+                <div class="faded-text">Deepak Mehta</div>
+
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! I'm Deepak Mehta</div>
+
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        I am a B.Tech Computer Science graduate focused on MERN Stack development.
+                        I build full-stack web applications using React.js, Redux Toolkit, Node.js,
+                        Express.js and MongoDB. I also have one year of experience as a Computer
+                        Faculty, which helped me strengthen my communication and problem-solving skills.
+                    </div>
+
+                    <div class="btn-pink" id="btn" role="button" tabindex="0" onclick="document.getElementById('contactme').scrollIntoView({ behavior: 'smooth' });" onkeydown="if (event.key === 'Enter' || event.key === ' ') document.getElementById('contactme').scrollIntoView({ behavior: 'smooth' });">Hire Me</div>
+                </div>
+
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                    </div>
+                    <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                    </div>
+                    <div class="user-image">
+                        <img src="./images/userAsset/UserImage.jpg" alt="Portrait of Deepak Mehta" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/HTML.png" alt="HTML">
+                            <img class="project-skill" src="./images/stack/CSS.png" alt="CSS">
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="JavaScript">
+                            <img class="project-skill" src="./images/stack/React.png" alt="React">
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="Redux Toolkit">
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="Tailwind CSS">
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="Node.js">
+                            <img class="project-skill" src="./images/stack/Express.png" alt="Express.js">
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="MongoDB">
+                        </div>
+
+                        <h2 class="project-heading">Education technology - EdTech Platform</h2>
+                        <p class="project-subHeading">
+                            A full-stack learning platform with student and instructor accounts,
+                            course creation, course content, enrollment, ratings and online payments.
+                        </p>
+                        <div class="btn-grp">
+                            <button type="button" class="btn-pink btn-project" onclick="window.open('https://edtechnology.netlify.app/', '_blank', 'noopener,noreferrer')">View Project</button>
+                            <a href="https://edtechnology.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="EduNest GitHub repository">
+                                <i title="GitHub Repository" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/React.png" alt="React">
+                            <img class="project-skill" src="./images/stack/Redux.svg" alt="Redux Toolkit">
+                            <img class="project-skill" src="./images/stack/Tailwind.png" alt="Tailwind CSS">
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="Node.js">
+                            <img class="project-skill" src="./images/stack/Express.png" alt="Express.js">
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="MongoDB">
+                        </div>
+                        <h2 class="project-heading">Course Builder Module</h2>
+                        <p class="project-sub-heading">
+                            An EduNest module where instructors can create courses, add sections
+                            and subsections, upload lecture content and manage course details.
+                        </p>
+                        <div class="btn-group">
+                            <button type="button" class="btn-pink btn-project" onclick="window.open('https://github.com/deepakmehta77722/edtech', '_blank', 'noopener,noreferrer')">View Code</button>
+                            <a href="https://github.com/deepakmehta77722/edtech" target="_blank" rel="noopener noreferrer" aria-label="Course Builder source code">
+                                <i title="GitHub Repository" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/React.png" alt="React">
+                            <img class="project-skill" src="./images/stack/Javascript.svg" alt="JavaScript">
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="Node.js">
+                            <img class="project-skill" src="./images/stack/Express.png" alt="Express.js">
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="MongoDB">
+                        </div>
+
+                        <h2 class="project-heading">Authentication & User Roles</h2>
+                        <p class="project-sub-heading">
+                            Authentication features in EduNest, including signup, login,
+                            role-based access for students and instructors, JWT and OTP flows.
+                        </p>
+                        <div class="btn-group">
+                            <button type="button" class="btn-pink btn-project" onclick="window.open('https://github.com/deepakmehta77722/edtech', '_blank', 'noopener,noreferrer')">View Code</button>
+                            <a href="https://github.com/deepakmehta77722/edtech" target="_blank" rel="noopener noreferrer" aria-label="Authentication source code">
+                                <i title="GitHub Repository" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./images/stack/React.png" alt="React">
+                            <img class="project-skill" src="./images/stack/NodeJs.svg" alt="Node.js">
+                            <img class="project-skill" src="./images/stack/Express.png" alt="Express.js">
+                            <img class="project-skill" src="./images/stack/MongoDB.svg" alt="MongoDB">
+                        </div>
+                        <h2 class="project-heading">Razorpay Payment Integration</h2>
+                        <p class="project-sub-heading">
+                            Payment flow in EduNest: create an order on the backend, open
+                            Razorpay Checkout and verify payment details before enrollment.
+                        </p>
+                        <div class="btn-group">
+                            <button type="button" class="btn-pink btn-project" onclick="window.open('https://github.com/deepakmehta77722/edtech', '_blank', 'noopener,noreferrer')">View Code</button>
+                            <a href="https://github.com/deepakmehta77722/edtech" target="_blank" rel="noopener noreferrer" aria-label="Payment integration source code">
+                                <i title="GitHub Repository" class="fa-brands fa-github icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skills" class="container skills-container">
+            <div class="skill-fade-text">Skills</div>
+
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                    <br>
+                    My Tech Stack
+                </h2>
+
+                <div class="skill-subHeading">
+                    <p>
+                        Hi, I'm Deepak Mehta, a B.Tech Computer Science and Engineering graduate
+                        focused on MERN Stack development. I have built a full-stack EdTech project
+                        using React.js, Redux Toolkit, Node.js, Express.js and MongoDB.
+                    </p>
+                    <p>
+                        I have one year of experience as a Computer Faculty, where I taught computer
+                        fundamentals, MS Word, Excel, PowerPoint and programming basics. This experience
+                        helped me develop communication, explanation and problem-solving skills.
+                    </p>
+                    <p>
+                        My technical interests include building responsive interfaces, developing REST APIs,
+                        managing application state, working with databases and integrating third-party services.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill-container-right">
+                <img src="./images/userAsset/blob vector.png" class="blob-style" alt="">
+
+                <img src="./images/stack/HTML.png" alt="HTML" class="skills-logo">
+                <img src="./images/stack/CSS.png" alt="CSS" class="skills-logo">
+                <img src="./images/stack/Javascript.svg" alt="JavaScript" class="skills-logo">
+                <img src="./images/stack/React.png" alt="React.js" class="skills-logo">
+                <img src="./images/stack/Redux.svg" alt="Redux Toolkit" class="skills-logo">
+                <img src="./images/stack/Tailwind.png" alt="Tailwind CSS" class="skills-logo">
+                <img src="./images/stack/NodeJs.svg" alt="Node.js" class="skills-logo">
+                <img src="./images/stack/Express.png" alt="Express.js" class="skills-logo">
+                <img src="./images/stack/MongoDB.svg" alt="MongoDB" class="skills-logo">
+                <img src="./images/stack/Git.svg" alt="Git" class="skills-logo">
+                <img src="./images/stack/Github.svg" alt="GitHub" class="skills-logo">
+            </div>
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Me</h1>
+                <h3 class="contactus-sub-heading">
+                    Have a project opportunity or want to discuss a role? Send me a message.
+                </h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" action="" method="post">
+                        <div class="formfield-container">
+                            <input class="formfield"
+                                type="text"
+                                name="name"
+                                id="name"
+                                placeholder="Enter your name"
+                                autocomplete="name"
+                                required>
+
+                            <input class="formfield"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email address"
+                                autocomplete="email"
+                                required>
+
+                            <input class="formfield"
+                                type="text"
+                                name="subject"
+                                id="subject"
+                                placeholder="Enter your subject"
+                                required>
+
+                            <textarea name="message"
+                                id="message"
+                                cols="30"
+                                rows="10"
+                                class="formfield formfield-textarea"
+                                placeholder="Enter your message"
+                                required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Deepak Mehta</div>
+
+                    <div class="link-wrapper">
+                        <div><a href="#projects">Projects</a></div>
+                        <div><a href="#skills">Skills</a></div>
+                        <div><a href="#contactme">Contact Me</a></div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="#" aria-label="Add your LinkedIn profile URL"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://github.com/deepakmehta77722/edtech" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github icon"></i></a>
+                        <a href="#" aria-label="Add your Instagram profile URL"><i class="fa-brands fa-instagram icon"></i></a>
+                        <a href="mailto:YOUR_EMAIL@example.com" aria-label="Email"><i class="fa-regular fa-envelope icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "MERN Stack Developer",
+                "React.js Developer",
+                "Node.js Developer",
+                "Full Stack Web Developer"
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000
+        });
+    </script>
+</body>
+</html>
