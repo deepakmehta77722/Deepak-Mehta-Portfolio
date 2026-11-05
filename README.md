@@ -31,9 +31,13 @@ A full-stack EdTech platform built using:
 
 ## Installation
 
-1. Clone the repository
-2. Open the project folder
-3. Open index.html using Live Server
+1. Clone this repository:
+
+   `git clone https://github.com/deepakmehta77722/Deepak-Mehta-Portfolio.git`
+
+2. Open the project folder in VS Code.
+
+3. Open index.html using VS Code Live Server.
 
 ## Connect With Me
 - GitHub:https://github.com/deepakmehta77722/
