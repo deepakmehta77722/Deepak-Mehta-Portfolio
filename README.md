@@ -36,6 +36,6 @@ A full-stack EdTech platform built using:
 3. Open index.html using Live Server
 
 ## Connect With Me
-- GitHub: YOUR_GITHUB_LINK
-- LinkedIn: YOUR_LINKEDIN_LINK
-- Email: YOUR_EMAIL
+- GitHub:https://github.com/deepakmehta77722/
+- LinkedIn:https://www.linkedin.com/in/deepakkumar162/
+- Email:deepakmehta7527@gmail.com
